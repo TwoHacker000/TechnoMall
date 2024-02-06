@@ -1,0 +1,10 @@
+.hover {
+    color: rgba(237, 235, 235, 0.74)
+}
+.hover:hover {
+    margin-bottom: -3px;
+    margin-right: -3px;
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: white
+}

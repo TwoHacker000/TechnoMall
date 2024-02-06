@@ -1,0 +1,7 @@
+Name: Techno Mall OR Techno Shop whatever
+Color: #AD3D6F 
+
+დამხმარე ფერი SMALL ICON BACKGROUND COLOR : #CE92AD
+
+
+rgba(237, 235, 235, 0.74)
