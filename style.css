@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .hover {
     color: rgba(237, 235, 235, 0.74);
     font-size:14px;
