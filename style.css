@@ -1,10 +1,13 @@
 .hover {
-    color: rgba(237, 235, 235, 0.74)
+    color: rgba(237, 235, 235, 0.74);
+    font-size:14px;
 }
 .hover:hover {
     margin-bottom: -3px;
     margin-right: -3px;
-    transition-property: color;
-    transition-duration: 0.5s;
+    transition-property:  background-color;
+    background-color:aqua ;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
     color: white
 }
