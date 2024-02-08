@@ -3,28 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></head>
+    <box-icon name='basket'></box-icon>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Techno Mall</title>
 </head>
 <body>
     <header>
-        <div style="display: block; height: 40px; background-color: #AD3D6F; align-items: center; display: flex; justify-content:space-around;">
-            <div class="hover" style="display: flex; font-family: Georgia, 'Times New Roman', Times, serif;">
+        <div style="height: 40px; background-color: #AD3D6F; align-items: center; display: flex; justify-content:space-around;">
+            <div class="nav" style="display: flex; font-family: Georgia, 'Times New Roman', Times, serif;">
                 <a href="#"><img style="width: 20px; height: 20px; border-radius: 4px;" src="imgs/icon2.jpg" alt="icon"></a>
                 <a href="#"><p style="padding-left: 8px;">*9009 / +995(32) 2 90 30 90</p></a>
             </div>
             <div style=" width: 400px; display: flex; align-items: center; justify-content: space-around; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
-               <a href="#"><h3 class="hover">კარიერა</h3></a>
-               <a href="#"><h3 class="hover">ფილიალები</h3></a>
-               <a href="#"><h3 class="hover">Trade In</h3></a>
-               <a href="#"><h3 class="hover">ყველა აქცია</h3></a>
+               <a href="#"><h3 class="nav">კარიერა</h3></a>
+               <a href="#"><h3 class="nav">ფილიალები</h3></a>
+               <a href="#"><h3 class="nav">Trade In</h3></a>
+               <a href="#"><h3 class="nav">ყველა აქცია</h3></a>
                <a id='homo' href="/login/login.html"><i class='bx bx-user-circle' ></i></a>
             </div>
         </div>
-        <div style="height: 70px; background-color: rgba(237, 235, 235, 0.74); display: flex;">
-            <a href="/imgs/mainicon2.png"> <img src="imgs/mainicon2.png" alt="mainicon" style="width: 10%; height: 100%; object-fit: cover; margin-top: 5px; margin-left: 170px; position: relative;;"></a>
-            <h1 style="font-size: 50px; position: absolute; margin: 5px 0px 0px 280px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">ტექნო მოლი</h1>
+        <div style="background-color: rgba(237, 235, 235, 0.74); display: flex; justify-content: space-around;">
+            <div style="display: flex;">
+                <a href="#"><img  style="height: 65px; margin-top: 5px;" src="imgs/123.png" alt="mainicon"></a>
+                <h1  style="color: #AD3D6F; font-weight: 500; font-size: 50px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"><a href="#">ტექნო მოლი</a></h1>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <div style="display: flex; align-items: center; border-style: groove; border-width: 1px; border-color: black;">
+                    <input class="search" style="width: 300px; height: 35px; border: none;" type="text" placeholder="Search">
+                    <button type="submit" style="border: none; color: #AD3D6F; cursor: pointer; background-color: white; height: 35px;"><i style="font-size: 20px;" class='bx bxs-search' ></i></button>
+                </div>
+                <button class="bt" type="submit" style="display: flex; align-items: center; border-radius: 7px; margin-left: 20px; cursor: pointer; border: none;">
+                    <i style="color: #AD3D6F; font-size: 35px; " class='bx bx-basket'></i>
+                    <p style="font-weight: bold; color: #AD3D6F; font-size: 14px; margin-left: 5px;">კალათა</p>
+                </button>
+            </div>
         </div>
     </header>
 </body>

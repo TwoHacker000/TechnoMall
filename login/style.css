@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(138, 44, 88);
+    background-color: #AD3D6F;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -17,7 +17,7 @@ form {
     background-color: rgb(53, 1, 53);
     width: 90%; 
     max-width: 500px;
-    color: white;
+    color: rgba(237, 235, 235, 0.74);
     padding: 20px;
     border-radius: 10px;
 
@@ -33,7 +33,7 @@ form {
     border: 2px solid;
     border-radius: 5px;
     background: none;
-    color: white;
+    color: rgba(237, 235, 235, 0.74)
 }
 
 form .button {
