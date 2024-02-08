@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Sign In</h1>
+            <div class="input">
+                <div>
+                    <i class='bx bxs-user'></i>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                    
+                </div>
+                <div>
+                    <i class='bx bx-lock-alt'></i>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    
+                </div>
+            </div>
+                <div class="remember">
+                    <label>Remember Me </label>
+                    <input id="remember" type="checkbox">
+                </div>
+            
+            <div>
+                <input type="submit" class='button' value="Login">
+            </div>
+            <div>
+                Don't have an account? <a href="#">Sign Up</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
