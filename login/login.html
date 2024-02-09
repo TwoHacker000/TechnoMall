@@ -8,21 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <div id="surati">
+            <a href="/"><img style=" height: 200px;width: 200px; border-radius: 4px;" src="../imgs/mainicon.png" alt="icon"></a>
+        </div>
     <div class="container">
         <form>
             <h1>Sign In</h1>
             <div class="input">
                 <div>
-                    <i class='bx bxs-user'></i>
+                   
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username" placeholder="Username" required>
-                    
+                    <div class="box">
+                    <i class='bx bxs-user'></i>
+                </div>
                 </div>
                 <div>
-                    <i class='bx bx-lock-alt'></i>
+                    
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" placeholder="Password" required>
-                    
+                    <div class="boxpassword">
+                    <i class='bx bx-lock-alt'></i>
+                </div>
                 </div>
             </div>
                 <div class="remember">
@@ -34,7 +41,7 @@
                 <input type="submit" class='button' value="Login">
             </div>
             <div>
-                Don't have an account? <a href="#">Sign Up</a>
+                Don't have an account? <a href="../signup/index.html">Sign Up</a>
             </div>
         </form>
     </div>

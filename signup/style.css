@@ -66,12 +66,17 @@ form .button {
     position:absolute;
     right: 850px;
     font-size: 24px;
-    top:37.5%;
+    top:37.8%;
 }
-
-.boxpassword{
+.boxemail{
     position: absolute;
     top: 44.9%;
+    right: 850px;
+    font-size: 24px;
+}
+.boxpassword{
+    position: absolute;
+    top: 52.3%;
     right: 850px;
     font-size: 24px;
 }
