@@ -1,10 +1,10 @@
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 body {
     background-color: #AD3D6F;
     display: flex;
@@ -47,6 +47,8 @@ form .button {
     border: 2px solid;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #AD3D6F;
+    color: rgba(237, 235, 235, 0.74);
   
 }
 .container{
