@@ -69,3 +69,7 @@
     color: #AD3D6F; 
     cursor:pointer
 }
+.container {
+    display: flex;
+    padding: 2px;
+}
