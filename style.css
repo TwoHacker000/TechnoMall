@@ -84,6 +84,7 @@
     padding-top: 10px;
     padding-left: 10px;
     height: 41px;
+    cursor: pointer;
 }
 .navheads:hover {
     color: #AD3D6F;
@@ -97,4 +98,57 @@
     background-color: rgba(237, 235, 235, 0.74);
     width: 220px;
     height: 0.5px;
+}
+
+
+.dropdown button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgba(237, 235, 235, 0.74);
+}
+
+.dropdown a {
+    display: block;
+    padding: 20px 50px 20px;
+}
+
+.dropdown .content {
+    display: none;
+    
+    position: absolute;
+    background-color: #AD3D6F;
+    min-width: 100px;;
+    transition: display 0.3s ease;
+
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:0.001dpcm){
+    
+.dropdown:hover .content {
+    display: block;
+    top: 12%;;
+    left: 35%;
+    width: 1200px;
+    height: 500px;
+    transition: 2s;
+  
+}
+}
+@-moz-document url-prefix(){
+    .dropdown:hover .content {
+        display: block;
+        top: 10%;;
+        left: 36%;
+        width: 1200px;
+        height: 500px;
+        transition: 2s;
+      
+    }
+ }
+.dropdown .content table th {
+    color: black;
+    font-size: 20px;
+   
 }
