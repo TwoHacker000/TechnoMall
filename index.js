@@ -47,7 +47,7 @@ card_container = [
         Mobile: 'Iphone 12 | 128GB BLUE',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
@@ -57,7 +57,7 @@ card_container = [
         Mobile: 'Iphone 11 | 64GB WHITE',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
@@ -72,7 +72,7 @@ card_container = [
         Mobile: 'Iphone 11 | 64GB WHITE',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
@@ -82,7 +82,7 @@ card_container = [
         Mobile: 'Iphone 12 | 128GB BLUE',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
@@ -92,7 +92,7 @@ card_container = [
         Mobile: 'Iphone 12 | 128GB BLUE',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
@@ -102,22 +102,12 @@ card_container = [
         Mobile: 'Iphone 12 | 128GB BLUE',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
-        Price: '2000₾',
-        Mobile: 'Samsung S24 | 256GB BLACK',
-    },
-    {   
-        src: 'https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/q:100/plain/s3://catalog-products/201014082215729804/201106080048951631.png@jpeg',
-        Price: '2500₾',
-        Mobile: 'Iphone 12 | 128GB BLUE',
-    },
-    {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
@@ -127,7 +117,17 @@ card_container = [
         Mobile: 'Iphone 12 | 128GB BLUE',
     },
     {
-        src: 'https://www.sammobile.com/wp-content/uploads/2023/12/Samsung-Galaxy-S24-Black-01.png',
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
+        Price: '2000₾',
+        Mobile: 'Samsung S24 | 256GB BLACK',
+    },
+    {   
+        src: 'https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/q:100/plain/s3://catalog-products/201014082215729804/201106080048951631.png@jpeg',
+        Price: '2500₾',
+        Mobile: 'Iphone 12 | 128GB BLUE',
+    },
+    {
+        src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvys9dqBcgaW17xZqmasyf2nsKp8GoV4s4BmgBECP-ow&s',
         Price: '2000₾',
         Mobile: 'Samsung S24 | 256GB BLACK',
     },
